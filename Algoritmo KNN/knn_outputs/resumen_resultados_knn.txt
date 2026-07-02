@@ -1,0 +1,35 @@
+RESUMEN DEL MODELO KNN
+======================
+
+1. Tipo de problema
+Clasificacion supervisada multiclase.
+
+2. Tecnicas aplicadas
+- Hold-Out 80/20
+- K-Fold Cross-Validation estratificada
+- SMOTE para balanceo de clases
+- SelectKBest para seleccion de caracteristicas
+- KNN con busqueda de mejor K y mejor distancia
+
+3. Mejor configuracion hold-out
+- K = 19
+- Distancia = euclidean
+
+4. Caracteristicas seleccionadas
+- study_hours, attendance_percentage, parental_education, test_preparation, extracurricular_participation, past_grade
+
+5. Metricas hold-out
+- Accuracy = 0.850
+- Precision macro = 0.869
+- Precision ponderada = 0.869
+- Recall macro = 0.850
+- Recall ponderado = 0.850
+- F1 macro = 0.853
+- F1 ponderado = 0.853
+- Especificidad macro = 0.925
+- FPR macro = 0.075
+
+6. AUC por clase
+- Clase 0: 0.971
+- Clase 1: 0.744
+- Clase 2: 0.961
