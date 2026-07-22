@@ -1,9 +1,3 @@
-"""
-Integrantes: Díaz Alvarado Jesús Everado
-             Galván Quiroz Jesús David
-Grupo: 8CM12
-"""
-
 from __future__ import annotations
 import tkinter as tk
 from dataclasses import dataclass
