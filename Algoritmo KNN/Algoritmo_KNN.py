@@ -1,9 +1,3 @@
-"""
-Integrantes: Díaz Alvarado Jesús Everado
-             Galván Quiroz Jesús David
-Grupo: 8CM12
-"""
-
 from __future__ import annotations
 from imblearn.pipeline import Pipeline
 from imblearn.over_sampling import SMOTE
